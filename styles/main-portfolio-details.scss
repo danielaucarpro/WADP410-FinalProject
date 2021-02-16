@@ -1,0 +1,173 @@
+@import "./scss/colours";
+@import "./scss/body";
+@import "./scss/header";
+@import "./scss/footer";
+
+#title {
+    margin-top: 3em;
+    text-align: center;
+    border-bottom: 1px solid $colour-darkgray;
+}
+
+#details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    ul {
+        li {
+            display: inline-block;
+            margin: 1em;
+            list-style: none;
+            font-size: 1.1em;
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+#container {
+    margin: 0px 25em 0px 25em;
+}
+
+.titlePortfolio {
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: $colour-black;
+}
+
+.portfolioText {
+    font-size: 1.1em;
+}
+
+.embed-responsive-item {
+    width: 100%;
+    height: 100%;
+}
+
+#btn {
+    a {
+        text-decoration: none;
+    }
+    .btn {
+        margin: 1rem auto;
+        display: block;
+        border-color: transparent;
+        width: 10%;
+        border-radius: 50px;
+        background-color: $colour-black;
+        color: $BG-white;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $BG-white;
+            color: $colour-black;
+            border-color: $colour-black;
+        }
+    }
+}
+
+/*RESPONSIVE*/
+
+/*1650*/
+@media screen and (max-width: 1650px) {
+    #container {
+        margin: 0px 20em 0px 20em;
+    }
+}
+
+/*1471px*/
+@media screen and (max-width: 1471px) {
+    #container {
+        margin: 0px 15em 0px 15em;
+    }
+}
+
+/*1350px*/
+@media screen and (max-width: 1350px) {
+    #container {
+        margin: 0px 10em 0px 10em;
+    }
+
+    .titlePortfolio {
+        font-size: 1.5em;
+    }
+}
+
+/*1142px*/
+@media screen and (max-width: 1142px) {
+    #container {
+        margin: 0px 8em 0px 8em;
+    }
+}
+
+/*1038px*/
+@media screen and (max-width: 1038px) {
+    #details {
+        ul {
+            li {
+                display: block;
+            }
+        }
+    }
+
+    .portfolioText {
+        font-weight: 400;
+    }
+}
+
+/*972px*/
+@media screen and (max-width: 972px) {
+    #btn {
+        .btn {
+            width: 15%;
+        }
+    }
+}
+
+/*745px*/
+@media screen and (max-width: 745px) {
+    #btn {
+        .btn {
+            width: 20%;
+        }
+    }
+}
+
+/*615px*/
+@media screen and (max-width: 615px) {
+    #container {
+        margin: 0px 5em 0px 5em;
+    }
+    #btn {
+        .btn {
+            width: 25%;
+        }
+    }
+}
+
+/*450px*/
+@media screen and (max-width: 450px) {
+    #container {
+        margin: 0px 3em 0px 3em;
+    }
+    #btn {
+        .btn {
+            width: 30%;
+        }
+    }
+}
+
+/*350px*/
+@media screen and (max-width: 350px) {
+    #container {
+        margin: 0px 2em 0px 2em;
+    }
+    #btn {
+        .btn {
+            width: 35%;
+        }
+    }
+}

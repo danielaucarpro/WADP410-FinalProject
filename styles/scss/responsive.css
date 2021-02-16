@@ -1,0 +1,422 @@
+/*BG Colors*/
+/*Color*/
+/*Shadow*/
+/*Responsive*/
+/*1371px*/
+@media screen and (max-width: 1371px) {
+  /*COVER*/
+  #cover #coverTextContainer #jobPosition {
+    font-size: 1.5vw;
+  }
+
+  /*ABOUT*/
+  #aboutMe {
+    margin: 10em 5em 0em 5em;
+  }
+  #aboutMe #aboutMeJobs {
+    font-size: 1.2vw;
+  }
+  #aboutMe .aboutMeText {
+    line-height: 150%;
+    font-size: 1.3vw;
+    font-weight: 400;
+  }
+  #aboutMe .btn {
+    font-size: 1.1vw;
+  }
+
+  /*SKILLS*/
+  #skillsContainer {
+    margin: 7.5em 5em 0px 5em;
+  }
+  #skillsContainer .skillTextContainer .skillTitle {
+    font-size: 1.4vw;
+  }
+  #skillsContainer .skillTextContainer .skillText {
+    font-size: 1.3vw;
+  }
+
+  /*PORTFOLIO*/
+  #portfolio {
+    padding: 0px 5em 5em 5em;
+  }
+  #portfolio #portfolioTitle {
+    padding-top: 1.5em;
+    font-size: 5em;
+    border-bottom: 1px solid gray;
+  }
+  #portfolio #portfolioWrapper {
+    grid-row-gap: 10em;
+  }
+  #portfolio #portfolioWrapper .work .workImgContainer {
+    box-shadow: 1px 1px 5px black;
+    z-index: 1;
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer {
+    font-size: 1.1vw;
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer .workText {
+    font-size: 1.3vw;
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer .workTitle {
+    border-left: 2px solid black;
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer a {
+    font-size: 1.1vw;
+  }
+}
+/*1142px*/
+@media screen and (max-width: 1142px) {
+  /*COVER*/
+  #cover #coverTextContainer #jobPosition {
+    font-size: 1.5vw;
+  }
+
+  /*ABOUT*/
+  #aboutMe .aboutMeText {
+    line-height: 150%;
+    font-size: 1.5vw;
+    font-weight: 400;
+  }
+  #aboutMe .btn {
+    width: 25%;
+    font-size: 1.2vw;
+  }
+
+  /*SKILLS*/
+  #skillsContainer .skillTextContainer .skillTitle {
+    font-size: 1.8vw;
+  }
+  #skillsContainer .skillTextContainer .skillText {
+    font-size: 1.5vw;
+  }
+
+  /*PORTFOLIO*/
+  #portfolio {
+    padding: 0px 5em 5em 5em;
+  }
+  #portfolio #portfolioTitle {
+    padding-top: 1.5em;
+    font-size: 5em;
+  }
+  #portfolio #portfolioWrapper {
+    grid-row-gap: 10em;
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer {
+    font-size: 1.1vw;
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer .workText {
+    font-size: 1.5vw;
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer a {
+    font-size: 1.3vw;
+  }
+}
+/*957*/
+@media screen and (max-width: 957px) {
+  /*COVER*/
+  #cover #coverTextContainer #jobPosition {
+    font-size: 2vw;
+  }
+
+  /*ABOUT*/
+  #aboutMe {
+    margin: 10em 5em 0em 5em;
+  }
+  #aboutMe #aboutMeImgContainer img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  #aboutMe #aboutMeJobs {
+    font-weight: 700;
+    font-size: 1.4vw;
+  }
+  #aboutMe .aboutMeText {
+    line-height: 150%;
+    font-size: 1.7vw;
+    font-weight: 400;
+  }
+  #aboutMe .btn {
+    width: 30%;
+    font-size: 1.3vw;
+  }
+
+  /*SKILLS*/
+  #skillsContainer {
+    margin: 7.5em 5em 0px 5em;
+  }
+  #skillsContainer .skillTextContainer .skillTitle {
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  #skillsContainer .skillTextContainer .skillText {
+    font-size: 1.6vw;
+  }
+
+  /*PORTFOLIO*/
+  #portfolio {
+    padding: 0px 5em 5em 5em;
+  }
+  #portfolio #portfolioTitle {
+    padding-top: 1.5em;
+    font-size: 5em;
+    border-bottom: 1px solid gray;
+  }
+  #portfolio #portfolioWrapper {
+    grid-row-gap: 10em;
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer {
+    font-size: 1.3vw;
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer .workText {
+    font-size: 1.8vw;
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer .workTitle {
+    border-left: 2px solid black;
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer a {
+    font-size: 1.5vw;
+  }
+}
+/*881px*/
+@media screen and (max-width: 881px) {
+  /*ABOUT*/
+  #aboutMe .btn {
+    width: 30%;
+    font-size: 1.5vw;
+  }
+
+  /*SKILLS*/
+  #skillsContainer {
+    margin: 7.5em 5em 0px 5em;
+  }
+  #skillsContainer .skillTextContainer .skillTitle {
+    font-size: 2.1vw;
+    font-weight: bold;
+  }
+  #skillsContainer .skillTextContainer .skillText {
+    font-size: 1.7vw;
+  }
+
+  /*PORTFOLIO*/
+  #portfolio {
+    padding: 0px 3em 5em 3em;
+  }
+  #portfolio #portfolioWrapper {
+    grid-row-gap: 10em;
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer {
+    font-size: 1.5vw;
+    line-height: 1.8;
+    /*LINK*/
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer .workText {
+    font-size: 1.9vw;
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer .workTitle {
+    border-left: 2px solid black;
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer a {
+    font-size: 1.6vw;
+  }
+}
+/*782px*/
+@media screen and (max-width: 782px) {
+  /*ABOUT ME*/
+  #aboutMe #aboutMeJobs {
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+  #aboutMe .aboutMeText {
+    font-size: 1em;
+    font-weight: 400;
+  }
+  #aboutMe .btn {
+    width: 40%;
+    font-size: 0.8em;
+  }
+  #aboutMe .btn:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+  }
+
+  /*SKILLS*/
+  #skillsContainer {
+    margin: 7.5em 3em 0px 3em;
+  }
+  #skillsContainer .skillTextContainer .skillTitle {
+    font-size: 2.3vw;
+    font-weight: bold;
+  }
+  #skillsContainer .skillTextContainer .skillText {
+    font-size: 1.9vw;
+  }
+
+  /*PORTFOLIO*/
+  #portfolio {
+    padding: 0px 2em 5em 2em;
+  }
+  #portfolio #portfolioWrapper {
+    grid-row-gap: 5em;
+  }
+  #portfolio #portfolioWrapper .work .workImgContainer {
+    display: none;
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer {
+    font-size: 1.7vw;
+    line-height: 1.8;
+    /*LINK*/
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer .workText {
+    font-size: 2vw;
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer .workTitle {
+    border-left: 2px solid black;
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer a {
+    font-size: 1.8vw;
+  }
+}
+/*658px*/
+@media screen and (max-width: 658px) {
+  /*COVER*/
+  #cover {
+    display: block;
+  }
+  #cover #coverTextContainer #title {
+    padding-top: 1em;
+    font-size: 2em;
+  }
+  #cover #coverTextContainer #jobPosition {
+    font-size: 1em;
+  }
+
+  /*ABOUT ME*/
+  #aboutMe {
+    display: block;
+    margin: 5em 5em 0em 5em;
+  }
+  #aboutMe #aboutMeImgContainer img {
+    display: none;
+  }
+  #aboutMe #aboutMeName {
+    display: none;
+  }
+  #aboutMe #aboutMeJobs {
+    display: none;
+  }
+  #aboutMe .aboutMeText {
+    font-size: 1em;
+    font-weight: 400;
+  }
+  #aboutMe .btn {
+    width: 50%;
+    font-size: 0.8em;
+  }
+  #aboutMe .btn:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+  }
+
+  /*SKILLS*/
+  #skillsContainer {
+    margin: 7.5em 3em 0px 3em;
+    display: block;
+  }
+  #skillsContainer .skillTextContainer .skillTitle {
+    font-size: 3vw;
+    font-weight: bold;
+  }
+  #skillsContainer .skillTextContainer .skillText {
+    font-size: 2.5vw;
+  }
+
+  /*PORTFOLIO*/
+  #portfolio {
+    padding: 0px 2em 5em 2em;
+  }
+  #portfolio #portfolioTitle {
+    padding-top: 1.5em;
+    font-size: 3em;
+    margin-bottom: 1em;
+  }
+  #portfolio #portfolioWrapper {
+    padding: 0em;
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer {
+    width: 100%;
+    font-size: 1.8vw;
+    line-height: 1.8;
+    /*LINK*/
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer .workText {
+    font-size: 2.5vw;
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer .workTitle {
+    border-left: 2px solid black;
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer a {
+    font-size: 2.3vw;
+  }
+}
+/*375px*/
+@media screen and (max-width: 375px) {
+  /*COVER*/
+  #cover {
+    grid-template-columns: none;
+    grid-row-gap: 0em;
+  }
+  #cover #coverTextContainer #title {
+    padding-top: 0em;
+  }
+  #cover #coverTextContainer #jobPosition {
+    font-size: 0.9em;
+  }
+
+  /*ABOUT*/
+  #aboutMe {
+    margin: 2em;
+  }
+  #aboutMe #aboutMeName {
+    display: none;
+  }
+  #aboutMe #aboutMeJobs {
+    display: none;
+  }
+  #aboutMe #aboutMeImgContainer img {
+    display: none;
+  }
+
+  /*SKILLS*/
+  #skillsContainer {
+    margin: 5em 2em 0px 2em;
+  }
+  #skillsContainer .skillTextContainer .skillTitle {
+    font-size: 1.2em;
+  }
+  #skillsContainer .skillTextContainer .skillText {
+    font-size: 1em;
+  }
+
+  /*PORTFOLIO*/
+  #portfolio {
+    margin-top: 5em;
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer {
+    width: 100%;
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer .workTitle {
+    font-size: 3em;
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer .workText {
+    font-size: 2.5em;
+  }
+  #portfolio #portfolioWrapper .work .portfolioTextContainer a {
+    font-size: 2em;
+  }
+  #portfolio #portfolioTitle {
+    font-size: 2em;
+  }
+}/*# sourceMappingURL=responsive.css.map */

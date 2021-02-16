@@ -1,0 +1,89 @@
+/*BG Colors*/
+/*Color*/
+/*Shadow*/
+#contact {
+  width: 100%;
+  display: flex;
+  padding: 3em;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -1px -1px 5px lightgray;
+}
+#contact #emailContainer #h1Footer {
+  font-size: 3em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid black;
+}
+#contact #emailContainer #email {
+  font-size: 1.5em;
+  color: gray;
+}
+#contact #socialMedia {
+  display: flex;
+  font-size: 1em;
+  padding: 3em;
+  align-items: center;
+  justify-content: center;
+}
+#contact #socialMedia img {
+  float: left;
+  margin-right: 0.3em;
+}
+#contact #socialMedia a {
+  font-size: 1.3em;
+  color: black;
+  text-decoration: none;
+}
+
+/*Responsive*/
+/*1370*/
+@media screen and (max-width: 1370px) {
+  #contact #emailContainer #h1Footer {
+    font-size: 2em;
+  }
+  #contact #emailContainer #email {
+    font-size: 1em;
+    color: gray;
+  }
+  #contact #socialMedia img {
+    width: 70%;
+  }
+  #contact #socialMedia a {
+    font-size: 1em;
+  }
+}
+/*811px*/
+@media screen and (max-width: 811px) {
+  #contact #emailContainer #h1Footer {
+    font-size: 2em;
+  }
+  #contact #emailContainer #email {
+    font-size: 1em;
+    color: gray;
+  }
+  #contact #socialMedia img {
+    width: 70%;
+  }
+  #contact #socialMedia a {
+    font-size: 1em;
+  }
+}
+/*375px*/
+@media screen and (max-width: 460px) {
+  #contact #emailContainer #h1Footer {
+    font-size: 2em;
+  }
+  #contact #emailContainer #email {
+    font-size: 1em;
+    color: gray;
+  }
+  #contact #socialMedia {
+    padding: 1em;
+  }
+  #contact #socialMedia img {
+    width: 1em;
+  }
+  #contact #socialMedia a {
+    font-size: 1em;
+  }
+}/*# sourceMappingURL=footer.css.map */
